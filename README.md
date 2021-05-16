@@ -1,11 +1,11 @@
-//install package
-sudo apt-get update
-sudo apt-get install build-essential python-dev python-openssl git
-// install library
-sudo pip3 install adafruit-circuitpython-dht
-sudo apt-get install libgpiod2
-//dht11.py
-
+## install package
+- sudo apt-get update
+- sudo apt-get install build-essential python-dev python-openssl git
+## install library
+- sudo pip3 install adafruit-circuitpython-dht
+- sudo apt-get install libgpiod2
+## dht11.py
+''
 import time
 import board
 import adafruit_dht
@@ -37,3 +37,4 @@ while True:
         raise error
  
     time.sleep(2.0)
+''
